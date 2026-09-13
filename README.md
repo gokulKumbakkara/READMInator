@@ -34,7 +34,13 @@ Supports **Groq**, **OpenAI**, and **Anthropic** as AI providers. Works both as 
 
 ---
 
-## Installation
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+
+### Installation
 
 ```bash
 git clone https://github.com/gokulKumbakkara/READMInator.git
@@ -43,7 +49,7 @@ npm install
 npm link          # makes `readminator` and `readminator-mcp` available globally
 ```
 
-> Requires Node.js 18+. If `npm link` fails with a permissions error, run:
+> If `npm link` fails with a permissions error, run:
 > ```bash
 > mkdir -p ~/.npm-global
 > npm config set prefix '~/.npm-global'
@@ -72,8 +78,6 @@ Prompts for:
 | GitHub Username | Your GitHub handle |
 
 Config is saved to `~/.readminator/config.json`.
-
----
 
 ### 2. Run
 
@@ -137,7 +141,7 @@ All tools accept optional `language`, `nameFilter`, `merge`, and `concurrency` p
 
 ---
 
-## Folder Structure
+## Project Structure
 
 ```
 READMInator/
@@ -208,9 +212,3 @@ No other changes needed.
 2. Create a feature branch (`git checkout -b feature/my-feature`)
 3. Commit your changes
 4. Open a Pull Request
-
----
-
-## License
-
-MIT
